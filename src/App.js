@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Fragment } from 'react'
+import { Route, Routes } from 'react-router-dom'
+import ReactDefault from './components/ReactDefault'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+    }
+  }
+  render () {
+    return (
+      <Fragment>
+        <Routes>
+          <Route exact path='/' element={<ReactDefault />} />
+          <Route path='*' element={(<div>nothing</div>)} />
+        </Routes>
+      </Fragment>
+    )
+  }
 }
 
-export default App;
+export default App
