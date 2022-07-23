@@ -1,0 +1,61 @@
+
+@font-face {
+  font-family: 'Varela Round';
+  src: local('Varela_Round'), url('./fonts/Varela_Round/VarelaRound-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open_Sans'), url('./fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf')
+}
+
+$theme-colors: (
+  'yellow': #FDE74C,
+  'orange': #E55934,
+  'blue': #5bc0eb,
+  'dark': #222,
+  'light': #fff,
+  'gray': #a4a9ad,
+  'facebook': #3b5998
+);
+
+$dark: #222;
+$light: #fff;
+
+.dark {
+  background-color: $dark;
+  color: $light;
+}
+
+.logo {
+  font-family: 'Varela Round' !important;
+  font-size: 5rem;
+}
+
+.dos-img {
+  pointer-events: none;
+  width: 20px;
+}
+
+.dos-img-div {
+  width: 20px;
+}
+
+.main-font-style {
+  font-family: 'Open Sans' !important;
+}
+
+.btn {
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .dos-img {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+@import '~bootstrap/scss/bootstrap';
