@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/degree/static/css/main.77d25a12.css",
+    "main.js": "/degree/static/js/main.150b1ed6.js",
+    "static/js/787.ed5b1383.chunk.js": "/degree/static/js/787.ed5b1383.chunk.js",
+    "static/media/OpenSans-VariableFont_wdth,wght.ttf": "/degree/static/media/OpenSans-VariableFont_wdth,wght.9c7806d7ef7d294f568e.ttf",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/degree/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/background-image-two.jpg": "/degree/static/media/background-image-two.9e87d23ee1bddf113919.jpg",
+    "static/media/fontawesome-webfont.eot": "/degree/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/degree/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/VarelaRound-Regular.ttf": "/degree/static/media/VarelaRound-Regular.6b0ad79431843e696f58.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/degree/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/degree/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/logo.svg": "/degree/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/degree/index.html",
+    "main.77d25a12.css.map": "/degree/static/css/main.77d25a12.css.map",
+    "main.150b1ed6.js.map": "/degree/static/js/main.150b1ed6.js.map",
+    "787.ed5b1383.chunk.js.map": "/degree/static/js/787.ed5b1383.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77d25a12.css",
+    "static/js/main.150b1ed6.js"
+  ]
+}
