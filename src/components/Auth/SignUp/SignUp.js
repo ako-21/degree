@@ -1,4 +1,5 @@
 import React from 'react'
+import apiUrl from '../../../apiConfig'
 import Logo from '../../Logo/Logo'
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
@@ -7,6 +8,10 @@ import 'font-awesome/css/font-awesome.min.css'
 
 class SignUp extends React.Component {
   state = {}
+
+  toFBAuth = () => {
+    window.open(apiUrl + '/auth/facebook/', '_self')
+  }
 
   render () {
     return (
@@ -25,7 +30,7 @@ class SignUp extends React.Component {
               <Button style={{ color: 'white', width: '100%' }} variant='orange'>SIGN UP WITH EMAIL</Button>
             </div>
             <div className='d-flex justify-content-center' style={{ width: '100%', marginBottom: '1rem' }}>
-              <Button style={{ width: '100%' }} variant='facebook'><i style={{ paddingRight: '12px' }} className='fa fa-facebook' aria-hidden='true'></i>SIGN UP WITH FACEBOOK</Button>
+              <Button onClick={this.toFBAuth} style={{ width: '100%' }} variant='facebook'><i style={{ paddingRight: '12px' }} className='fa fa-facebook' aria-hidden='true'></i>SIGN UP WITH FACEBOOK</Button>
             </div>
             <div>
               <p style={{ textAlign: 'center', color: 'white' }}>Already have an acount? <span style={{ textDecoration: 'underline' }}> Sign In</span></p>
