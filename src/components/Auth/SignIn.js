@@ -1,12 +1,12 @@
 import React from 'react'
-import apiUrl from '../../../apiConfig'
-import Logo from '../../Logo/Logo'
+import apiUrl from '../../apiConfig'
+import Logo from '../Logo/Logo'
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
-import bgImage from '../../../images/background-image-two.jpg'
+import bgImage from '../../images/background-image-two.jpg'
 import 'font-awesome/css/font-awesome.min.css'
 
-class SignUp extends React.Component {
+class SignIn extends React.Component {
   state = {}
 
   toFBAuth = () => {
@@ -27,13 +27,13 @@ class SignUp extends React.Component {
               <p style={{ textAlign: 'center', color: 'white' }}>By Signing Up, you agree with our <span style={{ textDecoration: 'underline' }}>Terms of</span><br></br>Service and Privacy Policy</p>
             </div>
             <div className='d-flex justify-content-center' style={{ width: '100%', marginBottom: '1rem' }}>
-              <Button style={{ color: 'white', width: '100%' }} variant='orange'>SIGN UP WITH EMAIL</Button>
+              <Button style={{ color: 'white', width: '100%' }} variant='google'><i className="fa fa-google-plus" style={{ paddingRight: '12px' }}></i>SIGN IN WITH GOOGLE</Button>
             </div>
             <div className='d-flex justify-content-center' style={{ width: '100%', marginBottom: '1rem' }}>
-              <Button onClick={this.toFBAuth} style={{ width: '100%' }} variant='facebook'><i style={{ paddingRight: '12px' }} className='fa fa-facebook' aria-hidden='true'></i>SIGN UP WITH FACEBOOK</Button>
+              <Button onClick={this.toFBAuth} style={{ width: '100%' }} variant='facebook'><i style={{ paddingRight: '12px' }} className='fa fa-facebook' aria-hidden='true'></i>SIGN IN WITH FACEBOOK</Button>
             </div>
             <div>
-              <p style={{ textAlign: 'center', color: 'white' }}>Already have an acount? <span style={{ textDecoration: 'underline' }}> Sign In</span></p>
+              <p style={{ textAlign: 'center', color: 'white' }}>Want to learn more about 1DOS? <span style={{ textDecoration: 'underline' }}> Click Here</span></p>
             </div>
           </div>
         </Container>
@@ -42,4 +42,4 @@ class SignUp extends React.Component {
   }
 }
 
-export default SignUp
+export default SignIn

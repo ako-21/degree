@@ -2,8 +2,10 @@ import React from 'react'
 import Button from 'react-bootstrap/Button'
 import axios from 'axios'
 import apiUrl from '../../apiConfig'
+
 class Application extends React.Component {
-  state = {}
+  state = {
+  }
 
   test = () => {
     axios({
@@ -14,9 +16,18 @@ class Application extends React.Component {
     .then(res => console.log(res))
   }
 
+  logout = () => {
+    axios({
+      url: `${apiUrl}/logout`,
+      method: 'POST',
+      withCredentials: true
+    })
+    .then(res => window.open(res.data.url, '_self'))
+  }
+
   render () {
     return (
-      <div><Button onClick={this.test}>Hello</Button>Hello</div>
+      <div><Button onClick={this.test}>Hello</Button><Button onClick={this.logout}>logout</Button></div>
     )
   }
 }
