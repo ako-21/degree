@@ -13,6 +13,10 @@ class SignIn extends React.Component {
     window.open(apiUrl + '/auth/facebook/', '_self')
   }
 
+  toGoogleAuth = () => {
+    window.open(apiUrl + '/auth/google/', '_self')
+  }
+
   render () {
     return (
       <div style={{ height: '100vh' }} className='main-font-style'>
@@ -27,7 +31,7 @@ class SignIn extends React.Component {
               <p style={{ textAlign: 'center', color: 'white' }}>By Signing Up, you agree with our <span style={{ textDecoration: 'underline' }}>Terms of</span><br></br>Service and Privacy Policy</p>
             </div>
             <div className='d-flex justify-content-center' style={{ width: '100%', marginBottom: '1rem' }}>
-              <Button style={{ color: 'white', width: '100%' }} variant='google'><i className="fa fa-google-plus" style={{ paddingRight: '12px' }}></i>SIGN IN WITH GOOGLE</Button>
+              <Button onClick={this.toGoogleAuth} style={{ color: 'white', width: '100%' }} variant='google'><i className="fa fa-google-plus" style={{ paddingRight: '12px' }}></i>SIGN IN WITH GOOGLE</Button>
             </div>
             <div className='d-flex justify-content-center' style={{ width: '100%', marginBottom: '1rem' }}>
               <Button onClick={this.toFBAuth} style={{ width: '100%' }} variant='facebook'><i style={{ paddingRight: '12px' }} className='fa fa-facebook' aria-hidden='true'></i>SIGN IN WITH FACEBOOK</Button>
