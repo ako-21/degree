@@ -12,7 +12,18 @@ class App extends Component {
     user: null
   }
 
-  setUser = user => this.setState({ user })
+  UNSAFE_componentWillMount () {
+    if (JSON.parse(localStorage.getItem('user'))) {
+      this.setState({ user: JSON.parse(localStorage.getItem('user'))})
+    } else {
+      return
+    }
+  }
+
+  setUser = (user) => {
+    this.setState({ user })
+    localStorage.setItem('user', JSON.stringify(user))
+  }
 
   clearUser = () => this.setState({ user: null })
 

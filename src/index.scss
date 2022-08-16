@@ -46,7 +46,11 @@ $light: #fff;
   font-family: 'Open Sans' !important;
 }
 
-.btn {
+.secondary-font-style {
+  font-family: 'Varela Round' !important;
+}
+
+.auth-button {
   border-top-left-radius: 20px !important;
   border-bottom-left-radius: 20px !important;
   border-top-right-radius: 20px !important;
@@ -56,6 +60,18 @@ $light: #fff;
 @media (prefers-reduced-motion: no-preference) {
   .dos-img {
     animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+.profile-avatar {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+@media (min-width: 540px) {
+  .profile-avatar {
+    width: 65px !important;
+    height: 65px !important;
   }
 }
 
