@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/degree/static/css/main.fb80f985.css",
-    "main.js": "/degree/static/js/main.0bfb8891.js",
+    "main.js": "/degree/static/js/main.a7203d69.js",
     "static/js/787.ed5b1383.chunk.js": "/degree/static/js/787.ed5b1383.chunk.js",
     "static/media/OpenSans-VariableFont_wdth,wght.ttf": "/degree/static/media/OpenSans-VariableFont_wdth,wght.9c7806d7ef7d294f568e.ttf",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/degree/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/degree/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/degree/index.html",
     "main.fb80f985.css.map": "/degree/static/css/main.fb80f985.css.map",
-    "main.0bfb8891.js.map": "/degree/static/js/main.0bfb8891.js.map",
+    "main.a7203d69.js.map": "/degree/static/js/main.a7203d69.js.map",
     "787.ed5b1383.chunk.js.map": "/degree/static/js/787.ed5b1383.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb80f985.css",
-    "static/js/main.0bfb8891.js"
+    "static/js/main.a7203d69.js"
   ]
 }
