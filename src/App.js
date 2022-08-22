@@ -44,7 +44,7 @@ class App extends Component {
             />
             <Route exact path='/success' element={<Success setUser={this.setUser} />} />
             <Route path='/default' element={<ReactDefault />} />
-            <Route path='/privacy' elemnet={<PrivacyPolicy />} />
+            <Route path='/privacy' element={<PrivacyPolicy />} />
             <Route path='*' element={(<div>nothing</div>)} />
           </Routes>
         </div>
