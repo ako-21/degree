@@ -5,6 +5,7 @@ import ReactDefault from './components/ReactDefault'
 import SignIn from './components/Auth/SignIn'
 import Success from './components/Auth/Success'
 import Application from './components/App/Application'
+import PrivacyPolicy from './components/PrivacyPolicy'
 
 
 class App extends Component {
@@ -43,6 +44,7 @@ class App extends Component {
             />
             <Route exact path='/success' element={<Success setUser={this.setUser} />} />
             <Route path='/default' element={<ReactDefault />} />
+            <Route path='/privacy' elemnet={<PrivacyPolicy />} />
             <Route path='*' element={(<div>nothing</div>)} />
           </Routes>
         </div>
