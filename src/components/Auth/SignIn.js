@@ -33,7 +33,6 @@ class SignIn extends React.Component {
   render () {
     return (
       <div style={{ height: '100vh' }} className='main-font-style'>
-        <a style={{ color: 'white' }} href="sms://+14035550185?body=I%27m%20interested%20in%20your%20product.%20Please%20contact%20me.">Send a SMS message</a>
         <div style={{ backgroundImage: `url(${bgImage})`, width: '100%', height: '100vh', backgroundPositionX: 'right', backgroundSize: 'cover', maxWidth: '991px', position: 'absolute', zIndex: '-1' }}></div>
         <div style={{ height: '100vh', width: '100%', maxWidth: '991px', position: 'absolute', backgroundColor: '#222222a6', zIndex: '-1' }}></div>
         <Container style={{ height: '100%' }} className='d-flex justify-content-center align-items-end'>
@@ -62,6 +61,7 @@ class SignIn extends React.Component {
             </div>
             <div>
               <p style={{ textAlign: 'center', color: 'white' }}>Want to learn more about 1DOS? <span style={{ textDecoration: 'underline' }}> Click Here</span></p>
+              <a style={{ color: 'white' }} href="sms://+14035550185?body=I%27m%20interested%20in%20your%20product.%20Please%20contact%20me.">Send a SMS message</a>
             </div>
           </div>
         </Container>
