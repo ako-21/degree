@@ -61,7 +61,6 @@ class SignIn extends React.Component {
             </div>
             <div>
               <p style={{ textAlign: 'center', color: 'white' }}>Want to learn more about 1DOS? <span style={{ textDecoration: 'underline' }}> Click Here</span></p>
-              <a style={{ color: 'white' }} href="sms://+14035550185?body=I%27m%20interested%20in%20your%20product.%20Please%20contact%20me.">Send a SMS message</a>
             </div>
           </div>
         </Container>
