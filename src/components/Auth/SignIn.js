@@ -13,6 +13,13 @@ class SignIn extends React.Component {
     googleButton: false
   }
 
+  componentDidMount () {
+    this.setState({
+      facebookButton: false,
+      googleButton: false
+    })
+  }
+
   toFBAuth = () => {
     this.setState({ facebookButton: true })
     window.open(apiUrl + '/auth/facebook/', '_self')
